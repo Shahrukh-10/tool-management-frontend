@@ -1,0 +1,158 @@
+.descreptionBlock::-webkit-scrollbar {
+    display: none;
+}
+.block{
+    width: 350px;
+    height: 240px;
+}
+.blockImage {
+    width: 150px;
+    transition: width 1000ms ease-in-out;
+}
+
+.block:hover .blockImage {
+    width: 0px;
+}
+
+.descreptionBlock {
+    transition: width 500ms linear;
+    transition: height 500ms linear;
+}
+
+.block:hover .descreptionBlock {
+    padding-right: 3px;
+    width: 100%;
+    height: 78%;
+}
+
+.animateSpin{
+    animation: spin 1000ms ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+  
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+
+/* ACCOUNT */
+
+
+
+.accountPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descreptionAccountPage{
+    padding-top: 3rem;
+}
+
+.buttonAccountPage{
+    color: white;
+    /* width: 80%; */
+}
+
+.buttonAccPageDiv:hover{
+    box-shadow: 0 0px 40px #1eff00;
+}
+
+.loginPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginInputField{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+
+
+.loginInput:focus{
+    box-shadow: 0 0px 10px #1ab6d1;
+}
+.loginInput{
+    transition: all;
+    transition-duration: 200ms;
+}
+.loginInput:focus{
+    transform: scale(1.09);
+}
+
+  /* LOGIN */
+
+  .containerLogin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* LINKS */
+  .userLinks{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+  .cardLoginFirst{
+    width: 20rem;
+    height: 20rem;
+    background-color:rgb(182, 174, 180);
+    box-shadow: 0 0 40px #db63eb;
+  }
+
+  /* ABOUT */
+
+  .full:hover .linkBlock{
+    left:13.25rem;
+  }
+  .full:hover .linkedin{
+    /* visibility: hidden; */
+    opacity: 0;
+    transition-duration: 500ms;
+  }
+  .nextLink{
+visibility: hidden;  }
+  .linkedinLink{
+    /* visibility: hidden; */
+    opacity: 0;    
+  }
+  .full:hover .linkedinLink {
+    opacity: 1;
+  }
+  .full:hover .nextLink{
+    visibility: visible;
+    opacity: 1;
+  }
+  .full::-webkit-scrollbar {
+    display: none;
+  }
+  .linkValue::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  /* ACCOUNT */
+
+  .exploreAll{
+    height: 100vh;
+  }
+  .exploreAll::-webkit-scrollbar {
+    display: none;
+  }
